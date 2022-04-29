@@ -61,13 +61,13 @@ $(document).ready(function() {
         let SDT = $("#txtSDT").val();
         let anh = "anhMoi";
 
-        let row = "<tr><td>" + i + "<\td>" +
-            "<td > " + ten + " < \td > " +
-            "<td > " + cmnd + " < \td > "
-        "<td > " + que + " < \td > "
-        "<td > " + mail + " < \td > "
-        "<td > " + SDT + " < \td > "
-        "<td > " + anh + " < \td > ";
+        let row = "<tr><td>" + i + "</td>"+
+            "<td> " + ten + "</td>" +
+            "<td> " + cmnd + "</td>"+
+            "<td > " + que + " </td>"+
+            "<td > " + mail + " </td>"+
+            "<td > " + SDT + " </td>"+
+            "<td > " + anh + " </td>";
         i++;
         $("#danhSach").append(row);
     })
