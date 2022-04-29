@@ -1,4 +1,5 @@
 $(document).ready(function() {
+       var i = 1;
     $("#btnDangKi").click(function() {
         $("#myModal").modal();
     })
@@ -53,7 +54,7 @@ $(document).ready(function() {
     })
 
     $("#btnSave").click(function() {
-        var i = 1;
+     
         let ten = $("#txtHoTen").val();
         let cmnd = $("#txtSCMND").val();
         let que = $("#txtQueQuan").val();
