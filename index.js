@@ -58,7 +58,7 @@ $(document).ready(function() {
         let cmnd = $("#txtSCMND").val();
         let que = $("#txtQueQuan").val();
         let mail = $("#txtEmail").val();
-        let SDT = $("txtSDT").val();
+        let SDT = $("#txtSDT").val();
         let anh = "anhMoi";
 
         let row = "<tr><td>" + i + "<\td>" +
